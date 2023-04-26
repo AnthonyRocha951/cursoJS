@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #146CFD, #8CE0FF);
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+
+        h1 {
+    color: #002664;
+    text-align: center;
+    text-shadow: 1px 1px 3px #00173bc7;
+}
+
+h2 {
+    color: #F3631B;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+        main {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px #00266496;
+      width: 600px;
+      padding: 10px;
+      margin: auto;
+}
+    </style>
+</head>
+<body>
+<p>
+    <h1>Suas informaçoes:</h1>
+    <main>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        var idade = window.prompt('qual sua idade?')
+        var cidade = window.prompt('qual sua cidade?')
+        var sobrenome = window.prompt('qual sua sobrenome?')
+        document.write(`<h2>Olá, <strong>${nome}</strong>!</h2></br>`)
+        document.write(`<p>NOME: ${nome}</p></br>`)
+        document.write(`<p>IDADE: ${idade} anos</p></br>`)
+        document.write(`<p>CIDADE: ${cidade}</p></br>`)
+        document.write(`<p>SOBRENOME: ${sobrenome}</p></br>`)
+        document.write(`<p><i>seu nome tem ${nome.length} letras.</p></i></br>`)
+    </script>
+    </main>
+</body>
+</html>
